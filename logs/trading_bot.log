@@ -1,0 +1,12 @@
+2026-04-21 11:29:12,458 | WARNING  | trading_bot | Validation failed: symbol 'bad symbol' is invalid: expected 5-20 uppercase alphanumeric characters, e.g. BTCUSDT
+2026-04-21 11:29:31,256 | WARNING  | trading_bot | Validation failed: quantity must be > 0, got 0.0
+2026-04-21 14:58:33,816 | INFO     | trading_bot | Initialized Binance futures client (testnet=True, api_key=ywmg***)
+2026-04-21 14:58:33,821 | DEBUG    | trading_bot | Pinging futures endpoint
+2026-04-21 14:58:34,408 | DEBUG    | trading_bot | Futures ping ok
+2026-04-21 14:58:34,408 | INFO     | trading_bot | Submitting futures order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-04-21 14:58:34,586 | INFO     | trading_bot | Futures order response: {'orderId': 13057152276, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ9aabab991db35883ef4cc5', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1776763713867}
+2026-04-21 15:01:48,274 | INFO     | trading_bot | Initialized Binance futures client (testnet=True, api_key=ywmg***)
+2026-04-21 15:01:48,279 | DEBUG    | trading_bot | Pinging futures endpoint
+2026-04-21 15:01:49,191 | DEBUG    | trading_bot | Futures ping ok
+2026-04-21 15:01:49,192 | INFO     | trading_bot | Submitting futures order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': 0.01, 'price': 10000.0, 'timeInForce': 'GTC'}
+2026-04-21 15:01:49,396 | INFO     | trading_bot | Futures order response: {'orderId': 13057159724, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ5c14f0193cad4e7f76f3d2', 'price': '10000.00', 'avgPrice': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1776763908653}
