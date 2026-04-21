@@ -1,4 +1,4 @@
-# Trading Bot — Binance Futures Testnet (USDT-M)
+# Trading Bot — Binance Futures
 
 A small Python CLI that places **Market**, **Limit**, and **Stop-Limit** (bonus) orders on the [Binance USDT-M Futures Testnet](https://testnet.binancefuture.com). Built with `python-binance`, `typer`, and `rich`.
 
